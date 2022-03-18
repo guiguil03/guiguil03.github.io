@@ -12,7 +12,7 @@ body{
     right:40px;
     border-right: 1px solid black;
     width: 140px;
-    bottom:16px;
+    bottom:15px;
     
    
 }
@@ -25,7 +25,7 @@ li{
 
 li:hover{
     background:rgb(252, 225, 229);
-    width:90%;
+    width: 90%;
 
 }
 #sous-menu li,#sous-menu1 li{
@@ -43,18 +43,19 @@ li:hover{
 }
 .cc:hover, .dd:hover,.aa:hover, .bb:hover{
     background-color: rgb(252, 225, 229);
-    width:100%;
     padding-right: 1px;;
 }
 #sous-menu:hover, #sous-menu1:hover{
     background: pink;
+    width:90%;
 }
 #conteneur1{
     opacity:0.5;
     position: relative;
-    left: 160px;
+    left: 180px;
     bottom: 160px;
-}
+    border-left: 3px;
+}   
 
 
 
