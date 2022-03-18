@@ -42,30 +42,18 @@ li:hover{
     position:absolute;
 }
 .cc:hover, .dd:hover,.aa:hover, .bb:hover{
-    background-color: pink;
+    background-color: rgb(252, 225, 229);
     width:100%;
     padding-right: 1px;;
 }
-li:nth-child(3):hover{
-    background-color: rgb(240, 207, 234);
-}
-li:nth-child(4):hover{
-    background-color: rgb(224, 190, 213);
-}
-li:nth-child(5):hover{
-    background-color: rgb(212, 161, 197);
-}
-#p{
-    opacity: 0.4;
-    right:400px;
-    translate: 20px;
+#sous-menu:hover, #sous-menu1:hover{
+    background: pink;
 }
 #conteneur1{
     opacity:0.5;
     position: relative;
     left: 140px;
     bottom: 160px;
-    overflow: hidden;
 }
 
 
